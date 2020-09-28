@@ -130,7 +130,7 @@ function getDialog(dialogType, text) {
 }
 
 function showYouWon() {
-  const text = "Awesome job, you got it in " + guesses.length + " attempts!";
+  const text = "Awesome job,Buu!! you got it in " + guesses.length + " attempts!";
   /**
    * Retrieve the dialog using the getDialog() function
    * and save it to variable called dialog
