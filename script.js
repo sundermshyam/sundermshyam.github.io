@@ -27,8 +27,8 @@ window.onload = function () {
 function playGame() {
   // *CODE GOES BELOW HERE *
   let numberGuess = document.getElementById("number-guess").value;
-  displayResult(numberGuess);
   saveGuessHistory(numberGuess);
+  displayResult(numberGuess);
   displayHistory();
 }
 
@@ -130,7 +130,7 @@ function getDialog(dialogType, text) {
 }
 
 function showYouWon() {
-  const text = "Awesome job, you got it!";
+  const text = "Awesome job, you got it in " + guesses.length + " attempts!";
   /**
    * Retrieve the dialog using the getDialog() function
    * and save it to variable called dialog
